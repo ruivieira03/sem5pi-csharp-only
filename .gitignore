@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+coverage/
+.env
+.env.local
+.DS_Store
+
+# C# / .NET
+bin/
+obj/
+*.user
+*.suo
+*.vs
+*.vscode
+*.csproj.user
+*.db
+*.sqlite
+appsettings*.json
+secrets.json
