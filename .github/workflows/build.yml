@@ -33,5 +33,5 @@ jobs:
       - name: Run SonarScanner analysis for .NET
         run: |
           dotnet sonarscanner begin /k:"ruivieira03_Projeto-Estagio-Teste" /o:"ruivieira03" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet build sem5pi/MDR/sem5pi-24-25-g034.sln
+          dotnet build MDR/sem5pi-24-25-g034.sln
           dotnet sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
